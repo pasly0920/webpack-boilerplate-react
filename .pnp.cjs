@@ -60,6 +60,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.14"],\
             ["postcss-loader", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:7.0.0"],\
             ["prettier", "npm:2.7.1"],\
+            ["process", "npm:0.11.10"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:18.2.0"],\
             ["style-loader", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:3.3.1"],\
@@ -8960,6 +8961,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["process", [\
+        ["npm:0.11.10", {\
+          "packageLocation": "./.yarn/cache/process-npm-0.11.10-aeb3b641ae-bfcce49814.zip/node_modules/process/",\
+          "packageDependencies": [\
+            ["process", "npm:0.11.10"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["process-nextick-args", [\
         ["npm:2.0.1", {\
           "packageLocation": "./.yarn/cache/process-nextick-args-npm-2.0.1-b8d7971609-1d38588e52.zip/node_modules/process-nextick-args/",\
@@ -10514,6 +10524,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.14"],\
             ["postcss-loader", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:7.0.0"],\
             ["prettier", "npm:2.7.1"],\
+            ["process", "npm:0.11.10"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:18.2.0"],\
             ["style-loader", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:3.3.1"],\
