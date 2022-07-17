@@ -46,6 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["core-js", "npm:3.23.3"],\
             ["css-loader", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:6.7.1"],\
             ["css-minimizer-webpack-plugin", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:4.0.0"],\
+            ["dotenv", "npm:16.0.1"],\
             ["eslint", "npm:8.19.0"],\
             ["eslint-config-airbnb-typescript", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:17.0.0"],\
             ["eslint-config-prettier", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:8.5.0"],\
@@ -5001,6 +5002,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dot-case", "npm:3.0.4"],\
             ["no-case", "npm:3.0.4"],\
             ["tslib", "npm:2.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dotenv", [\
+        ["npm:16.0.1", {\
+          "packageLocation": "./.yarn/cache/dotenv-npm-16.0.1-d99e72bb95-f459ffce07.zip/node_modules/dotenv/",\
+          "packageDependencies": [\
+            ["dotenv", "npm:16.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10510,6 +10520,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["core-js", "npm:3.23.3"],\
             ["css-loader", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:6.7.1"],\
             ["css-minimizer-webpack-plugin", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:4.0.0"],\
+            ["dotenv", "npm:16.0.1"],\
             ["eslint", "npm:8.19.0"],\
             ["eslint-config-airbnb-typescript", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:17.0.0"],\
             ["eslint-config-prettier", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:8.5.0"],\
