@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const InterpolateHtmlPlugin = require('interpolate-html-plugin');
 const path = require('path');
 const dotenv = require('dotenv');
 const webpack = require('webpack');
@@ -35,6 +36,7 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env': JSON.stringify(process.env),
     }),
+    new InterpolateHtmlPlugin({ PUBLIC_URL: '' }),
   ],
   resolve: {
     alias: {
