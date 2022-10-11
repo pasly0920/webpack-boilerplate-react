@@ -4702,6 +4702,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"interpolate-html-plugin@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "interpolate-html-plugin@npm:4.0.0"
+  dependencies:
+    escape-string-regexp: ^1.0.5
+  peerDependencies:
+    html-webpack-plugin: ">=4.5.1"
+  checksum: 0435c4554e7bb9f497a09a58b7d87981038047185e486c52a8304f607e64e97ede2f2959e9a25d9dd34dbde84779a93d17bbd115acb60d14d7c6c530ccebcfdc
+  languageName: node
+  linkType: hard
+
 "interpret@npm:^2.2.0":
   version: 2.2.0
   resolution: "interpret@npm:2.2.0"
@@ -7711,6 +7722,7 @@ __metadata:
     eslint-plugin-react-hooks: ^4.6.0
     file-loader: ^6.2.0
     html-webpack-plugin: ^5.5.0
+    interpolate-html-plugin: ^4.0.0
     mini-css-extract-plugin: ^2.6.1
     postcss: ^8.4.14
     postcss-loader: ^7.0.0
